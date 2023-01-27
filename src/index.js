@@ -22,7 +22,7 @@ function onSearch(event) {
   const searchCountry = event.target.value.trim();
 
   if (!searchCountry) {
-    resetSearch(countryList);
+    resetSearch(listCountry);
     resetSearch(countryInfo);
     return;
   }

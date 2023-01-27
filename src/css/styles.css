@@ -17,4 +17,25 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-left: -35px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: start;
+  align-self: start;
+}
+
+img {
+  width: 50px;
+  height: 25px;
+  align-items: baseline;
+  justify-content: center;
 }
